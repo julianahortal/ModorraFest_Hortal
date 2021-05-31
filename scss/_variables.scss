@@ -2,14 +2,12 @@
 $naranja-claro: #F38A1F;
 $naranja-hover: #F36A1F;
 $negro:#161612;
-@font-face {
-    font-family: theBold;
-    @import url(//db.onlinewebfonts.com/c/bb45f7c1aa890db9f527bc3790fc8c52?family=ShlopShloppy-Regular);
-}
+
 
 @font-face {
-    font-family: Shlop;
-    src: url(/font/Shlop.ttf);
+    font-family: "ShlopShloppy-Regular"; 
+    src: url("//db.onlinewebfonts.com/t/bb45f7c1aa890db9f527bc3790fc8c52.eot"); 
+    src: url("//db.onlinewebfonts.com/t/bb45f7c1aa890db9f527bc3790fc8c52.eot?#iefix") 
+    format("embedded-opentype"), url("//db.onlinewebfonts.com/t/bb45f7c1aa890db9f527bc3790fc8c52.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/bb45f7c1aa890db9f527bc3790fc8c52.woff") format("woff"), url("//db.onlinewebfonts.com/t/bb45f7c1aa890db9f527bc3790fc8c52.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/bb45f7c1aa890db9f527bc3790fc8c52.svg#ShlopShloppy-Regular") format("svg"); 
 }
-
 /*-----------------------------------*/
