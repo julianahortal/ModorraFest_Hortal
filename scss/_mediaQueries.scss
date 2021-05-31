@@ -1,0 +1,367 @@
+@media (min-width:768px) {
+    .section__lineUp {   
+        width: auto;
+        justify-self: center;  
+    }
+    /* MFContacto.html*/
+    
+    /*FORMULARIO*/
+    .body__contacto{
+        margin-left: 2em;
+        margin-right: 2em;
+        flex-direction: row;
+
+        .body__contacto--data{
+            margin-left: 2em;
+            padding-left:4em ;
+    
+            h1,h2{
+                font-size: 2.5em;
+                margin-bottom: 1em;
+            }     
+            iframe{
+                min-width: 100%;
+                height: 250px;
+                padding-right: 2em;
+            }
+        }
+    }
+    
+    /*MFMerchandisingProximamente*/
+    
+    .merchandising__proximamente{
+        margin-top: .2em;
+        margin-bottom: 1.8em;
+        height: 30em;
+        box-shadow:0 1px 4px 0 rgba(0,0,0,.32);
+        background-color: $negro;
+        .merchandising__logo {
+            margin-left: -2em;
+            margin-top: 50px;
+            padding-top: 4em;
+            width: 2em;
+    
+            h1{
+                font-family: 'Shlop';
+                color: $naranja-claro;
+                text-shadow: -0.04em -.020em #913106;
+                font-size: 16vw;
+                margin-right: 8em;
+    
+            }
+        } 
+        
+        .merchandising__newsletter {
+    
+            label {
+                margin-top: 30px;
+                margin-left: 18em;
+                size: 70px 50px;
+                font-family: 'Bebas neue';
+                margin-bottom: 10em;
+                color:$naranja-claro;
+                padding: 0.5%;
+                box-shadow:0 1px 4px 0 rgba(0,0,0,.32);
+                background-color: #161612;
+            }
+        
+            input {
+                margin-left: 5em;
+                padding: 10px;
+                width: 15em;
+            }
+            
+        }
+    }
+    /*-----------------------------------*/
+    .footer__menuFooter{
+        list-style-type: none;
+        font-family: 'Bebas Neue';
+        font-size: 2.5vw;
+        color: $naranja-claro;
+        margin-left: 5vw;
+        text-decoration: none;
+
+        li{
+            display: inline;
+            
+            a {
+                margin-inline-start: 2.5em;
+                font-family: 'Bebas Neue';       
+                padding: 1em;
+                display: inline;
+                color: #F3861F;
+                text-decoration: none;
+                justify-content: space-around;
+                
+            }
+        }    
+    }
+
+    .footer__creditos {
+            text-align: center;
+            margin-bottom: 4%;
+            font-size: 2.5vw;
+    }
+}
+
+@media (min-width:992px) {
+    
+    .header__header--index{
+        min-height: 550px;
+        max-width: auto;
+    
+    }
+    
+    /*NAVBAR DEL SITIO ENTERO*/
+
+    .header__navbar{
+        border: 1px solid #1A1A13;
+        border-radius:25px;
+        background-color: $negro;
+        box-shadow:0 1px 4px 0 rgba(0,0,0,.32);
+        margin: 15px 5em 0px 5em;
+        max-width: auto;
+        padding: 1em 15vw;
+        
+        
+        .container-fluid{
+            display: inline-block;
+            
+
+            .logo{
+                margin-left: 17vw;
+            }
+            .navbar-nav{
+                display: flex;
+                flex-direction: row;
+                text-align: center;
+                .nav-item{
+                list-style-type: none;
+                margin-left: 4vw;
+                font-family: 'Bebas Neue';
+                font-size: 125%;
+                padding: 4px 10px;
+                text-decoration: none;
+                text-align: center;
+                justify-content: space-around;
+                
+                a:hover{
+                    background-color: $naranja-claro;
+                    color: black;
+                }
+            
+                li a{
+                    display: block;
+                    margin-inline-start: 0%;
+                    font-family: 'Bebas Neue';
+                    font-size: 115%;
+                    display: inline;
+                    text-decoration: none;
+                    color: $naranja-claro;
+                    
+                }
+            }
+            .nav-link {
+                color: $naranja-claro;
+                padding: 10px;
+            }
+            .dropdown-menu {
+                
+                width: 50% !important;
+                height: 100px !important;
+                background-color: #1a1a15;
+                text-align: center;
+                padding-bottom: 2em;
+                .dropdown-menu:hover {
+                    background-color: #1a1a15;
+                }
+            }
+        }    
+    }
+}
+    /*FOOTER DE TODO EL SITIO*/
+    .footer__nav{
+        padding-left: 2em;
+        justify-content: space-between;
+        .footer__creditos {
+            text-align: center;
+            margin-bottom: 4%;
+            font-size: 1.5vw;
+        }
+        .footer__menuFooter{
+        font-size: 2.5vw;
+        li{
+                
+            a {
+                margin-inline-start: 8em;
+                font-size: 20px;
+                padding: 10px;
+                padding: 4px 6px; 
+            }
+        }    
+        }
+    
+    }
+    
+        
+    
+    
+    
+
+    /*-----------------------*/
+    
+    /*CONTENIDO INDEX*/
+    
+    .media{
+        display: flex;
+        flex-direction: row;
+
+        .media-body{
+            flex-wrap: nowrap;
+            h1,
+            h2{
+                margin-left: .1em;
+                font-size: 45px;
+                padding-top: 10px;
+            }
+        
+            p {
+
+                margin-right: 2em;
+                line-height: 30px;
+                padding-top: 1em;
+            }
+        }
+        .banner{
+            padding-left: 1em;
+            height: 25em;
+            width: auto;
+            padding-top: 10px;
+        } 
+                
+        
+    }
+    
+    /* MFAcercaDe.html*/
+    
+    .acercaDe {
+        .acercaDe__body {
+            display: flex;
+            flex-direction: row;
+            .acercaDe__texto{
+                margin-left: 4em;                
+                h1 {
+                    margin-left: .1em;
+                    font-size: 3.5em;                 
+                    margin-top: -1em;
+                }
+                p {
+                    font-size: 20px;
+                    margin-right: 4em;
+                    line-height: 2.5em;
+                    padding-top: .8em;               
+                }
+            }
+        }
+        .acercaDe__container{ 
+            margin-right: 4em;
+            margin-top: -7em;
+            margin-left: 4em ;
+            .acercaDe__body--banner{
+                width: 1000px;
+                height: auto;
+                transform: rotate(-180deg) translateY(-30%);
+                margin-bottom: 15em;   
+            }
+        }   
+    }
+
+    /* MFLineUp.html */
+    
+    .lineup__container{
+        display: flex;
+        flex-direction: row;
+        
+    }   
+    .section__lineUp {
+        margin-left: 8em;   
+        width: 80vw;
+        justify-self: center;  
+    }
+    /* MFContacto.html*/
+    
+    /*FORMULARIO*/
+    .body__contacto{
+        margin-left: 5em;
+        margin-right: 5em;
+        .formulario_container{
+            margin-left: 4em;
+            width: 30em;
+            padding-left:10em;
+            margin-right: 40em;
+        }
+
+        .body__contacto--data{
+            margin-left: 2em;
+            padding-left: 2em;
+            h1,h2{
+                font-size: 2.5em;
+                margin-bottom: 1em;
+            }     
+            iframe{
+                width: 525px;
+                height: 250px;
+                padding-right: 2em;
+            }
+        }
+    }
+    
+    /*MFMerchandisingProximamente*/
+    
+    .merchandising__proximamente{
+        margin-top: .2em;
+        margin-bottom: 1.8em;
+        height: 30em;
+        box-shadow:0 1px 4px 0 rgba(0,0,0,.32);
+        background-color: $negro;
+        .merchandising__logo {
+            margin-left: -2em;
+            margin-top: 50px;
+            padding-top: 4em;
+            width: 2em;
+    
+            h1{
+                font-family: 'Shlop';
+                color: $naranja-claro;
+                text-shadow: -0.04em -.020em #913106;
+                font-size: 16vw;
+                margin-right: 8em;
+    
+            }
+        } 
+        
+        .merchandising__newsletter {
+    
+            label {
+                margin-top: 30px;
+                margin-left: 18em;
+                size: 70px 50px;
+                font-family: 'Bebas neue';
+                margin-bottom: 10em;
+                color:$naranja-claro;
+                padding: 0.5%;
+                box-shadow:0 1px 4px 0 rgba(0,0,0,.32);
+                background-color: #161612;
+            }
+        
+            input {
+                margin-left: 5em;
+                padding: 10px;
+                width: 15em;
+            }
+            
+        }
+    }
+    /*-----------------------------------*/
+}
