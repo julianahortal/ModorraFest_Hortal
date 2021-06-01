@@ -7,7 +7,8 @@ body {
     background-color: #000000;
     background-image: url("../grafica/bannerIndex2.png");
     z-index: 100;
-    width: auto;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 /*HEADER SOLO DEL INDEX*/
@@ -312,7 +313,13 @@ body {
             padding: 2em;
             font-family: 'Bebas neue';
             color:$naranja-hover;
+            .forlumario__checkbox{
+                input {
+                    background-color: #F3661F;
 
+                }
+                
+            }
             .formulario__nombre{
                 
                 label {
@@ -437,7 +444,7 @@ body {
             padding-top: 4em;
             width: 2em;
             h1{
-                margin-left: 1em;
+                margin-left: 1vw;
                 font-family: 'ShlopShloppy-Regular';
                 color: $naranja-claro;
                 text-shadow: -.05em -.0010em #913106;

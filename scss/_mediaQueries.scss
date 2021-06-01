@@ -183,7 +183,7 @@
 }
     /*FOOTER DE TODO EL SITIO*/
     .footer__nav{
-        padding-left: 2em;
+        
         justify-content: space-between;
         .footer__creditos {
             text-align: center;
@@ -195,10 +195,11 @@
         li{
                 
             a {
-                margin-inline-start: 8em;
+                margin-inline-start: 6.5em;
                 font-size: 20px;
-                padding: 10px;
                 padding: 4px 6px; 
+                text-align: center;
+                justify-content: space-evenly;
             }
         }    
         }
@@ -291,7 +292,6 @@
         margin-left: 5em;
         margin-right: 5em;
         .formulario_container{
-            margin-left: 4em;
             width: 30em;
             padding-left:10em;
             margin-right: 40em;
@@ -320,18 +320,21 @@
         height: 30em;
         box-shadow:0 1px 4px 0 rgba(0,0,0,.32);
         background-color: $negro;
+        ;
         .merchandising__logo {
-            margin-left: -2em;
+            margin-left: 11vw;
             margin-top: 50px;
             padding-top: 4em;
             width: 2em;
+            text-align: center;
     
             h1{
+                
                 font-family: 'ShlopShloppy-Regular';
                 color: $naranja-claro;
                 text-shadow: -0.04em -.020em #913106;
                 font-size: 16vw;
-                margin-right: 8em;
+                
     
             }
         } 
