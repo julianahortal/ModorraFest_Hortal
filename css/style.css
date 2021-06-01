@@ -29,7 +29,7 @@ body {
   padding-bottom: 1em;
   justify-content: space-between; }
   .header__navbar .logo {
-    max-width: 250px;
+    max-width: 50%;
     margin-left: 15vw; }
   .header__navbar .navbar-nav {
     display: block; }
