@@ -17,7 +17,7 @@ body {
 .header__header--index {
   min-height: 30em;
   max-height: auto;
-  max-width: auto; }
+  width: auto; }
 
 /*NAVBAR DEL SITIO ENTERO*/
 .header__navbar {
@@ -69,6 +69,7 @@ body {
 /*FOOTER DE TODO EL SITIO*/
 .footer__nav {
   font-family: 'Bebas Neue';
+  width: auto;
   margin-top: 10px;
   background-color: #161612;
   color: white;
@@ -78,30 +79,28 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around; }
-
-.footer__menuFooter {
-  list-style-type: none;
-  margin-inline-start: 10%;
-  font-family: 'Bebas Neue';
-  font-size: 2.5vw;
-  color: #F38A1F;
-  padding: .2em .4em;
-  text-decoration: none; }
-  .footer__menuFooter li {
-    display: inline; }
-    .footer__menuFooter li a {
-      margin-inline-start: 1.5em;
-      font-family: 'Bebas Neue';
-      padding: 1em;
-      display: inline;
-      color: #F3861F;
-      text-decoration: none;
-      justify-content: space-around; }
-
-.footer__creditos {
-  text-align: center;
-  margin-bottom: 4%;
-  font-size: 2.5vw; }
+  .footer__nav .footer__menuFooter {
+    list-style-type: none;
+    margin-inline-start: 5em;
+    font-family: 'Bebas Neue';
+    font-size: 2.5vw;
+    color: #F38A1F;
+    padding: .2em .4em;
+    text-decoration: none; }
+    .footer__nav .footer__menuFooter li {
+      display: inline; }
+      .footer__nav .footer__menuFooter li a {
+        margin-inline-start: 1.5em;
+        font-family: 'Bebas Neue';
+        padding: 1em;
+        display: inline;
+        color: #F3861F;
+        text-decoration: none;
+        justify-content: space-around; }
+  .footer__nav .footer__creditos {
+    text-align: center;
+    margin-bottom: 4%;
+    font-size: 2.5vw; }
 
 /* ---------------*/
 /*-----------------------*/
@@ -385,7 +384,7 @@ body {
       padding-top: 4em;
       width: 2em; }
       .merchandising__proximamente .merchandising__logo h1 {
-        font-family: 'Shlop';
+        font-family: 'ShlopShloppy-Regular';
         color: #F38A1F;
         text-shadow: -0.04em -.020em #913106;
         font-size: 16vw;
@@ -581,7 +580,7 @@ body {
       padding-top: 4em;
       width: 2em; }
       .merchandising__proximamente .merchandising__logo h1 {
-        font-family: 'Shlop';
+        font-family: 'ShlopShloppy-Regular';
         color: #F38A1F;
         text-shadow: -0.04em -.020em #913106;
         font-size: 16vw;
