@@ -15,7 +15,7 @@ body {
 .header__header--index{
         min-height: 30em;
         max-height: auto;
-        max-width: auto;
+        width: auto;
 }
 
 /*NAVBAR DEL SITIO ENTERO*/
@@ -90,7 +90,7 @@ body {
 
 .footer__nav{
         font-family: 'Bebas Neue';
-
+        width: auto;
         margin-top: 10px;
         background-color: #161612;
         color: white;
@@ -100,37 +100,39 @@ body {
         display: flex;
         flex-direction: row;
         justify-content:space-around;
-}
 
-.footer__menuFooter{
-        list-style-type: none;
-        margin-inline-start: 10%;
-        font-family: 'Bebas Neue';
-        font-size: 2.5vw;
-        color: $naranja-claro;
-        padding: .2em .4em;
-        text-decoration: none;
-
-        li{
-            display: inline;
-            a {
-                margin-inline-start: 1.5em;
-                font-family: 'Bebas Neue';       
-                padding: 1em;
+        .footer__menuFooter{
+            list-style-type: none;
+            margin-inline-start: 5em;
+            font-family: 'Bebas Neue';
+            font-size: 2.5vw;
+            color: $naranja-claro;
+            padding: .2em .4em;
+            text-decoration: none;
+    
+            li{
                 display: inline;
-                color: #F3861F;
-                text-decoration: none;
-                justify-content: space-around;
-                
-            }
-        }    
+                a {
+                    margin-inline-start: 1.5em;
+                    font-family: 'Bebas Neue';       
+                    padding: 1em;
+                    display: inline;
+                    color: #F3861F;
+                    text-decoration: none;
+                    justify-content: space-around;
+                    
+                }
+            }    
+    }
+    
+    .footer__creditos {
+            text-align: center;
+            margin-bottom: 4%;
+            font-size: 2.5vw;
+    }
 }
 
-.footer__creditos {
-        text-align: center;
-        margin-bottom: 4%;
-        font-size: 2.5vw;
-}
+
 
 /* ---------------*/
 
