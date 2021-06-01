@@ -29,7 +29,8 @@ body {
   padding-bottom: 1em;
   justify-content: space-between; }
   .header__navbar .logo {
-    margin-left: 3em; }
+    max-width: 300px;
+    margin-left: 15vw; }
   .header__navbar .navbar-nav {
     display: block; }
     .header__navbar .navbar-nav .navbar-toggler {
