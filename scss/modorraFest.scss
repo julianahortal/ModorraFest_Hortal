@@ -28,7 +28,8 @@ body {
         padding-bottom: 1em;
         justify-content: space-between; 
         .logo{
-            margin-left: 3em;
+            max-width: 300px;
+            margin-left: 15vw;
         }
         .navbar-nav{
             display: block;
