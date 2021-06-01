@@ -29,7 +29,7 @@ body {
   padding-bottom: 1em;
   justify-content: space-between; }
   .header__navbar .logo {
-    max-width: 300px;
+    max-width: 250px;
     margin-left: 15vw; }
   .header__navbar .navbar-nav {
     display: block; }
@@ -37,7 +37,6 @@ body {
       color: #F36A1F; }
     .header__navbar .navbar-nav .nav-item {
       list-style-type: none;
-      margin-left: 3.5em;
       font-family: 'Bebas Neue';
       font-size: 115%;
       padding: 4px 6px;
