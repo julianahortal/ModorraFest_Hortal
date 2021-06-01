@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*IMPORTS*/
 /*VARIABLES*/
 @font-face {
@@ -28,12 +29,14 @@ body {
   width: auto;
   padding-top: 2em;
   padding-bottom: 1em;
-  justify-content: space-between; }
+  justify-content: space-between;
+  /*MENÚ*/ }
   .header__navbar .logo {
     max-width: 50%;
     margin-left: 15vw; }
   .header__navbar .navbar-nav {
-    display: block; }
+    display: block;
+    /*SUBMENÚ - LINE UP*/ }
     .header__navbar .navbar-nav .navbar-toggler {
       color: #F36A1F; }
     .header__navbar .navbar-nav .nav-item {
@@ -83,7 +86,6 @@ body {
   .footer__nav .footer__menuFooter {
     list-style-type: none;
     margin-inline-start: 5em;
-    font-family: 'Bebas Neue';
     font-size: 2.5vw;
     color: #F38A1F;
     padding: .2em .4em;
@@ -92,7 +94,6 @@ body {
       display: inline; }
       .footer__nav .footer__menuFooter li a {
         margin-inline-start: 1.5em;
-        font-family: 'Bebas Neue';
         padding: 1em;
         display: inline;
         color: #F3861F;
@@ -100,12 +101,10 @@ body {
         justify-content: space-around; }
   .footer__nav .footer__creditos {
     text-align: center;
-    margin-bottom: 4%;
-    font-size: 2.5vw; }
+    margin-bottom: 4%; }
 
-/* ---------------*/
 /*-----------------------*/
-/*CONTENIDO INDEX*/
+/*INDEX*/
 .media {
   margin-left: .5em;
   margin-right: .5em;
@@ -134,7 +133,8 @@ body {
     width: 100%;
     height: auto; }
 
-/* MFAcercaDe.html*/
+/*-----------------------*/
+/*ACERCA DE*/
 .acercaDe {
   margin-inline-start: .5em;
   align-self: center;
@@ -171,7 +171,8 @@ body {
       height: auto;
       transform: rotate(90deg) translateY(-30%); }
 
-/* MFLineUp.html */
+/*-----------------------*/
+/*LINE UP*/
 .lineup__container {
   display: flex;
   flex-direction: row; }
@@ -196,8 +197,7 @@ body {
 
 .section__pelicula {
   margin-block-start: 10px;
-  margin-left: 1em;
-  margin-right: 1em;
+  margin: 0em 1em;
   padding: 1em; }
   .section__pelicula h2 {
     font-family: 'Bebas Neue', cursive;
@@ -225,10 +225,10 @@ body {
       padding: 5px;
       margin-right: 2%;
       line-height: 2em;
-      font-size: 1.2em; }
+      font-size: 1em; }
 
-/* MFContacto.html*/
-/*FORMULARIO*/
+/*-----------------------*/
+/*CONTACTO*/
 .body__contacto {
   margin-top: 1em;
   margin-left: 1em;
@@ -316,7 +316,8 @@ body {
       font-size: 1em;
       color: #F36A1F; }
 
-/*MFMerchandisingProximamente*/
+/*-----------------------*/
+/*MERCHANDISING*/
 .merchandising__proximamente {
   margin-top: .2em;
   margin-bottom: 1.8em;
@@ -550,6 +551,14 @@ body {
     margin-left: 8em;
     width: 80vw;
     justify-self: center; }
+  .section__pelicula-- p {
+    margin-left: .5em;
+    color: #F38A1F;
+    font-family: 'Archivo', sans-serif;
+    padding: 5px;
+    margin-right: 2%;
+    line-height: 2em;
+    font-size: 1.2em; }
   /* MFContacto.html*/
   /*FORMULARIO*/
   .body__contacto {
@@ -602,3 +611,5 @@ body {
       padding: 10px;
       width: 15em; }
   /*-----------------------------------*/ }
+
+/*-----------------------*/
