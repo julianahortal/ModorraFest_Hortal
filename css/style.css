@@ -616,7 +616,8 @@ body {
   /*FORMULARIO*/
   .body__contacto {
     margin-left: 5em;
-    margin-right: 5em; }
+    margin-right: 5em;
+    flex-direction: row; }
     .body__contacto .formulario_container {
       width: 30em;
       padding-left: 10em;
@@ -628,7 +629,7 @@ body {
         font-size: 2.5em;
         margin-bottom: 1em; }
       .body__contacto .body__contacto--data iframe {
-        width: 525px;
+        width: 40vw;
         height: 250px;
         padding-right: 2em; }
   /*MFMerchandisingProximamente*/
