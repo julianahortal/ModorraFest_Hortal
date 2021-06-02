@@ -46,8 +46,34 @@
             <!--<img src="grafica/v2/proximamente.png" alt="PRÓXIMAMENTE" /> -->
         </div>
         <div class="merchandising__newsletter">
-            <label for="nombre_apellido">Quiero recibir noticias sobre próximo lanzamiento</label>	
-            <input type="text" name="nombre_apellido" placeholder="j.perez@outlook.com"/> <br> <br>
+            <form class="row row-cols-lg-auto align-items-center">
+                <div class="col-10">
+                    <div class="input-group">
+                        <div class="input-group-text">Quiero recibir noticias sobre próximo lanzamiento</div>
+                            <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="j.perez@outlook.com">
+                    </div>
+                </div>
+                <div class="col-2">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Enviar</button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Modorra Shop</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    ¡Subscripción con éxito! Muy pronto te envíaremos novedades a tu casilla de correo acerca de la apertura de la tienda Modorra Shop.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
         </div>
         
     </section>
