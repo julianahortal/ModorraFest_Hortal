@@ -314,6 +314,7 @@
     .body__contacto{
         margin-left: 5em;
         margin-right: 5em;
+        flex-direction: row;
         .formulario_container{
             width: 30em;
             padding-left:10em;
@@ -323,14 +324,17 @@
         .body__contacto--data{
             margin-left: 2em;
             padding-left: 2em;
+            
             h1,h2{
                 font-size: 2.5em;
                 margin-bottom: 1em;
             }     
             iframe{
-                width: 525px;
+                
+                width: 40vw;
                 height: 250px;
                 padding-right: 2em;
+                
             }
         }
     }
