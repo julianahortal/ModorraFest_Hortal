@@ -31,12 +31,9 @@
     
     .merchandising__proximamente{
         margin-top: .2em;
-        margin-bottom: 1.8em;
-        height: 30em;
-        box-shadow:0 1px 4px 0 rgba(0,0,0,.32);
-        background-color: $negro;
+        align-items: center;
         .merchandising__logo {
-            margin-left: -2em;
+            
             margin-top: 50px;
             padding-top: 4em;
             width: 2em;
@@ -52,26 +49,17 @@
         } 
         
         .merchandising__newsletter {
-    
-            label {
-                margin-top: 30px;
-                margin-left: 18em;
-                size: 70px 50px;
-                font-family: 'Bebas neue';
-                margin-bottom: 10em;
-                color:$naranja-claro;
-                padding: 0.5%;
-                box-shadow:0 1px 4px 0 rgba(0,0,0,.32);
-                background-color: #161612;
+            .row{
+                justify-self:  center;
+                    margin-left: 10vw;
+                    margin-right:10vw;
+                    
+                    .btn-primary{
+                        
+                        margin-left: 35vw;
+                    }
             }
-        
-            input {
-                margin-left: 5em;
-                padding: 10px;
-                width: 15em;
-            }
-            
-        }
+        }          
     }
     /*-----------------------------------*/
     .footer__menuFooter{
@@ -327,14 +315,8 @@
     /*MFMerchandisingProximamente*/
     
     .merchandising__proximamente{
-        margin-top: .2em;
-        margin-bottom: 1.8em;
-        height: 30em;
-        box-shadow:0 1px 4px 0 rgba(0,0,0,.32);
-        background-color: $negro;
-        ;
+        height: 10em;
         .merchandising__logo {
-            margin-left: 11vw;
             margin-top: 50px;
             padding-top: 4em;
             width: 2em;
@@ -352,25 +334,17 @@
         } 
         
         .merchandising__newsletter {
-    
-            label {
-                margin-top: 30px;
-                margin-left: 18em;
-                size: 70px 50px;
-                font-family: 'Bebas neue';
-                margin-bottom: 10em;
-                color:$naranja-claro;
-                padding: 0.5%;
-                box-shadow:0 1px 4px 0 rgba(0,0,0,.32);
-                background-color: #161612;
+            margin-top: 5em;
+            .row{
+                margin-left: 15vw;
+                margin-right:30vw;   
+
+                .btn-primary{      
+
+                    margin-left: 30vw;
+                    
+                }
             }
-        
-            input {
-                margin-left: 5em;
-                padding: 10px;
-                width: 15em;
-            }
-            
         }
     }
     /*-----------------------------------*/

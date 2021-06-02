@@ -420,51 +420,79 @@ body {
 /*MERCHANDISING*/
 
 .merchandising__proximamente{
-        margin-top: .2em;
-        margin-bottom: 1.8em;
-        height: 30em;
-        box-shadow:0 1px 4px 0 rgba(0,0,0,.32);
-        background-color: $negro;
-
-        .merchandising__logo {
-            margin-top: 50px;
-            padding-top: 4em;
-            width: 2em;
-            h1{
-                margin-left: 1vw;
-                font-family: 'ShlopShloppy-Regular';
-                color: $naranja-claro;
-                text-shadow: -.05em -.0010em #913106;
-                font-size: 16vw;
-                margin-right: 4em;
-
-            }
-            
+    margin-top: .2em;
+    margin-bottom: 1.8em;
+    min-height: 50vw;
+    box-shadow:0 1px 4px 0 rgba(0,0,0,.32);
+    background-color: $negro;
+    .merchandising__logo {
+        margin-top: 50px;
+        padding-top: 4em;
+        width: 2em;
+        h1{
+            margin-left: 12vw;
+            font-family: 'ShlopShloppy-Regular';
+            color: $naranja-claro;
+            text-shadow: -.05em -.0010em #913106;
+            font-size: 16vw;
+            margin-right: 4em;
         }
-        
-        .merchandising__newsletter {
-            margin-left: 2em;
-            label {
-                margin-top: 30px;
-                margin-left: 5em;
-                size: 70vw 50vw;
-                font-family: 'Bebas neue';
-                margin-bottom: 2em;
-                color:$naranja-claro;
+            
+    }    
+    .merchandising__newsletter {
+
+
+        .row {
+            margin-bottom: 2em;
+            display:block;
+            
+            .input-group {
+                margin: 30px 7vw 2em;
                 padding: 0.5%;
-                box-shadow:0 1px 4px 0 rgba(0,0,0,.32);
-                background-color: #161612;
+                box-shadow:0 1px 4px 0 rgba(0,0,0,.32);    
                 justify-content: center;
+                .input-group-text{
+                    font-family: 'Bebas neue';
+                    background-color: $naranja-claro;
+                    border-color: $naranja-claro;
+                }
+                input[type=text]{
+                    color: black; 
+                    font-family: 'Bebas neue';
+                    background-color: #f8a150;
+                    border-color: $naranja-claro;  
+                }
             }
-        
-            input {
-                margin-left: 5em;
-                padding: 10px;
-                width: 15em;
-                justify-content: center;
+            .btn-primary{
+                margin-left: 44vw;
+                background-color: $naranja-claro;
+                border-color: #F3861F;
+                font-family: 'Bebas neue';
+                color: black;                
+                
             }
-            
+            .modal-header, .modal-footer{
+                color: black;
+                background-color: #F3661F;
+                font-family: 'Bebas neue';
+                border-color: #F3661F;
+                .btn-secondary{
+                    margin-left: 44vw;
+                    background-color: $naranja-claro;
+                    border-color: #F3661F;
+                    font-family: 'Bebas neue';
+                    color: black;                
+                    
+                }
+                
+            }
+            .modal-body{
+                color: black;
+                background-color: #F3661F;
+                font-family: 'Archivo';
+            }
         }
+    }          
         
 
 
