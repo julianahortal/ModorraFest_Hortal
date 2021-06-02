@@ -420,34 +420,71 @@ body {
 /*MERCHANDISING*/
 
 .merchandising__proximamente{
+
     margin-top: .2em;
     margin-bottom: 1.8em;
-    min-height: 50vw;
+    min-height: 60vw;
     box-shadow:0 1px 4px 0 rgba(0,0,0,.32);
     background-color: $negro;
     .merchandising__logo {
         margin-top: 50px;
-        padding-top: 4em;
-        width: 2em;
+        padding: 2em 0em;
+        
         h1{
-            margin-left: 12vw;
+            text-align: center;
             font-family: 'ShlopShloppy-Regular';
             color: $naranja-claro;
             text-shadow: -.05em -.0010em #913106;
             font-size: 16vw;
-            margin-right: 4em;
-        }
+            padding-bottom: .5em;
+        }   
             
+        .proximamente{
+            .merch--banner{
+                background-color: $naranja-hover;                    
+                    margin-top: 0%;
+                    padding:.5em;
+                    position:relative;
+                    box-shadow:0 1px 4px 0 rgba(0,0,0,.32);
+            }    
+
+            h2{
+                
+                font-family: 'ShlopShloppy-Regular';
+                color: $naranja-claro;
+                text-shadow: -0.04em -.020em #913106;
+                font-size: 10vw;
+                text-align: center;
+                position: absolute;
+                opacity: 0;
+                top: 100vw;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+        .proximamente:hover{
+            .merch--banner{
+                opacity: 0.3;
+                transition: .5s ease;
+                backface-visibility: hidden; 
+            }
+            h2 {
+                opacity: 1;
+                transition: .5s ease;
+            }
+        }
+    
+        
     }    
+    
     .merchandising__newsletter {
-
-
         .row {
             margin-bottom: 2em;
+            padding-bottom: 2em;
             display:block;
             
             .input-group {
-                margin: 30px 7vw 2em;
+                margin:0vw 8vw;
                 padding: 0.5%;
                 box-shadow:0 1px 4px 0 rgba(0,0,0,.32);    
                 justify-content: center;
@@ -464,7 +501,7 @@ body {
                 }
             }
             .btn-primary{
-                margin-left: 44vw;
+                margin-left: 40vw;
                 background-color: $naranja-claro;
                 border-color: #F3861F;
                 font-family: 'Bebas neue';
