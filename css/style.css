@@ -321,7 +321,7 @@ body {
 .merchandising__proximamente {
   margin-top: .2em;
   margin-bottom: 1.8em;
-  height: 30em;
+  min-height: 50vw;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.32);
   background-color: #161612;
   /*-----------------------------------*/ }
@@ -330,30 +330,50 @@ body {
     padding-top: 4em;
     width: 2em; }
     .merchandising__proximamente .merchandising__logo h1 {
-      margin-left: 1vw;
+      margin-left: 12vw;
       font-family: 'ShlopShloppy-Regular';
       color: #F38A1F;
       text-shadow: -.05em -.0010em #913106;
       font-size: 16vw;
       margin-right: 4em; }
-  .merchandising__proximamente .merchandising__newsletter {
-    margin-left: 2em; }
-    .merchandising__proximamente .merchandising__newsletter label {
-      margin-top: 30px;
-      margin-left: 5em;
-      size: 70vw 50vw;
-      font-family: 'Bebas neue';
-      margin-bottom: 2em;
-      color: #F38A1F;
+  .merchandising__proximamente .merchandising__newsletter .row {
+    margin-bottom: 2em;
+    display: block; }
+    .merchandising__proximamente .merchandising__newsletter .row .input-group {
+      margin: 30px 7vw 2em;
       padding: 0.5%;
       box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.32);
-      background-color: #161612;
       justify-content: center; }
-    .merchandising__proximamente .merchandising__newsletter input {
-      margin-left: 5em;
-      padding: 10px;
-      width: 15em;
-      justify-content: center; }
+      .merchandising__proximamente .merchandising__newsletter .row .input-group .input-group-text {
+        font-family: 'Bebas neue';
+        background-color: #F38A1F;
+        border-color: #F38A1F; }
+      .merchandising__proximamente .merchandising__newsletter .row .input-group input[type=text] {
+        color: black;
+        font-family: 'Bebas neue';
+        background-color: #f8a150;
+        border-color: #F38A1F; }
+    .merchandising__proximamente .merchandising__newsletter .row .btn-primary {
+      margin-left: 44vw;
+      background-color: #F38A1F;
+      border-color: #F3861F;
+      font-family: 'Bebas neue';
+      color: black; }
+    .merchandising__proximamente .merchandising__newsletter .row .modal-header, .merchandising__proximamente .merchandising__newsletter .row .modal-footer {
+      color: black;
+      background-color: #F3661F;
+      font-family: 'Bebas neue';
+      border-color: #F3661F; }
+      .merchandising__proximamente .merchandising__newsletter .row .modal-header .btn-secondary, .merchandising__proximamente .merchandising__newsletter .row .modal-footer .btn-secondary {
+        margin-left: 44vw;
+        background-color: #F38A1F;
+        border-color: #F3661F;
+        font-family: 'Bebas neue';
+        color: black; }
+    .merchandising__proximamente .merchandising__newsletter .row .modal-body {
+      color: black;
+      background-color: #F3661F;
+      font-family: 'Archivo'; }
 
 @media (min-width: 768px) {
   .section__lineUp {
@@ -378,12 +398,8 @@ body {
   /*MFMerchandisingProximamente*/
   .merchandising__proximamente {
     margin-top: .2em;
-    margin-bottom: 1.8em;
-    height: 30em;
-    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.32);
-    background-color: #161612; }
+    align-items: center; }
     .merchandising__proximamente .merchandising__logo {
-      margin-left: -2em;
       margin-top: 50px;
       padding-top: 4em;
       width: 2em; }
@@ -393,20 +409,12 @@ body {
         text-shadow: -0.04em -.020em #913106;
         font-size: 16vw;
         margin-right: 8em; }
-    .merchandising__proximamente .merchandising__newsletter label {
-      margin-top: 30px;
-      margin-left: 18em;
-      size: 70px 50px;
-      font-family: 'Bebas neue';
-      margin-bottom: 10em;
-      color: #F38A1F;
-      padding: 0.5%;
-      box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.32);
-      background-color: #161612; }
-    .merchandising__proximamente .merchandising__newsletter input {
-      margin-left: 5em;
-      padding: 10px;
-      width: 15em; }
+    .merchandising__proximamente .merchandising__newsletter .row {
+      justify-self: center;
+      margin-left: 10vw;
+      margin-right: 10vw; }
+      .merchandising__proximamente .merchandising__newsletter .row .btn-primary {
+        margin-left: 35vw; }
   /*-----------------------------------*/
   .footer__menuFooter {
     list-style-type: none;
@@ -580,13 +588,8 @@ body {
         padding-right: 2em; }
   /*MFMerchandisingProximamente*/
   .merchandising__proximamente {
-    margin-top: .2em;
-    margin-bottom: 1.8em;
-    height: 30em;
-    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.32);
-    background-color: #161612; }
+    height: 10em; }
     .merchandising__proximamente .merchandising__logo {
-      margin-left: 11vw;
       margin-top: 50px;
       padding-top: 4em;
       width: 2em;
@@ -596,20 +599,13 @@ body {
         color: #F38A1F;
         text-shadow: -0.04em -.020em #913106;
         font-size: 16vw; }
-    .merchandising__proximamente .merchandising__newsletter label {
-      margin-top: 30px;
-      margin-left: 18em;
-      size: 70px 50px;
-      font-family: 'Bebas neue';
-      margin-bottom: 10em;
-      color: #F38A1F;
-      padding: 0.5%;
-      box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.32);
-      background-color: #161612; }
-    .merchandising__proximamente .merchandising__newsletter input {
-      margin-left: 5em;
-      padding: 10px;
-      width: 15em; }
+    .merchandising__proximamente .merchandising__newsletter {
+      margin-top: 5em; }
+      .merchandising__proximamente .merchandising__newsletter .row {
+        margin-left: 15vw;
+        margin-right: 30vw; }
+        .merchandising__proximamente .merchandising__newsletter .row .btn-primary {
+          margin-left: 30vw; }
   /*-----------------------------------*/ }
 
 /*-----------------------*/
