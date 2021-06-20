@@ -16,7 +16,7 @@ body {
 .header__header--index{
     min-height: 30em;
     max-height: auto;
-    width: auto;
+    
 }
 
 /*NAVBAR DEL SITIO ENTERO*/
@@ -24,7 +24,6 @@ body {
     border: 1px solid #1A1A13;
     background-color: $negro;
     box-shadow:0 1px 4px 0 rgba(0,0,0,.32);
-    width: auto;
     padding-top: 2em;
     padding-bottom: 1em;
     justify-content: space-between; 
@@ -173,7 +172,7 @@ body {
     align-self: center;
     box-shadow:0 1px 4px 0 rgba(0,0,0,.32);
     background-color: $negro;
-    margin-top: .5em;
+    margin-top: 2em;
     margin-right: .5em;
     .acercaDe__body {
         display: flex;
@@ -217,78 +216,87 @@ body {
 /*LINE UP*/
 
 .lineup__container{
-    display: flex;
-    flex-direction: row;
-}
+    
+    margin-right: 1.2em;
+    
+    .section__lineUp {
+        
+        .row{
+            margin-left: .5em;   
+            margin-top: 2em;
+            flex-wrap: wrap;
+            background-color: #161612;
+            box-shadow:0 1px 4px 0 rgba(0,0,0,.32);
+            h1{
+                font-family: 'Bebas Neue', cursive; 
+                color:$naranja-hover;
+                text-align: center;
+                font-size: 2.3em;
+                padding-top: .3em;
+                margin-top: .2em;
+                color: $naranja-hover;
+                height: 60px;
+            }  
+            .lineup__container--peliculas{
+                align-items:flex-start;
+                .section__pelicula {
+                    padding: 1em  0em 0em;
+                    h2{
+                        font-family: 'Bebas Neue', cursive; 
+                        padding: 0.5em .5em 1.5em;
+                        font-size: 1.5em;
+                        height: 30px;
+                        background-color: $naranja-hover;
+                        color: $negro;                        
+                    }
+                    h3{
+                        font-family: 'Bebas Neue', cursive; 
+                        padding: 0.5em 1em 1.5em;
+                        font-size: 1.4em;
+                        height: 30px;
+                        background-color: $naranja-hover;
+                        color: $negro;
+                    }
+                    
+                    .section__pelicula--sinopsis{                        
+                        display: flex;
+                        flex-direction: row;
+                        margin: 1em 0em;
+                        
+                        
+                        .poster{                            
+                            margin-top: 1em;
+                            width: 50%;                                                        
+                            height: 50%;                                                             
+                            box-shadow:0 1px 4px 0 $naranja-hover;
+                            
+                            
+                        }
+                        p{
+                            margin-top: .2em;
+                            padding-left: 1em;
+                            color:$naranja-claro;
+                            font-family: 'Archivo', sans-serif;      
+                            line-height: 2em;
+                            font-size: 1.1em;  
+                            text-align: justify;
+                        }
+                        
+                    } 
+                }
+            }
 
-.section__lineUp {
-    margin-left: 1em;   
-    margin-right: 1em;
-    margin-top: 2em;
-    width: 47em;
-    flex-wrap: wrap;
-    background-color: #161612;
-    box-shadow:0 1px 4px 0 rgba(0,0,0,.32);
-    h1{
-        font-family: 'Bebas Neue', cursive; 
-        color:$naranja-hover;
-        text-align: center;
-        font-size: 50px;
-        padding-top: .3em;
-        margin-top: .2em;
-        color: $naranja-hover;
-        height: 60px;
-    }  
-}
-.section__pelicula {
-    margin-block-start: 10px;
-    margin: 0em 1em;
-    padding: 1em;
-
-    h2{
-        font-family: 'Bebas Neue', cursive; 
-        margin-left: 0px;
-        padding: 0px;
-        font-size: 30px;
-        height: 30px;
-        background-color: $naranja-hover;
-        color: $negro;
-    }
-    .section__pelicula--sinopsis{
-        display: flex;
-        flex-direction: row;
-        .poster{
-            margin-top: 1em;
-            width: 10em;
-            height: 15em;  
-            box-shadow:0 1px 4px 0 $naranja-hover;
         }
-
-            .poster:hover{
-                transform: scale(2, 2);
-                transition: transform .5s;
-            }
-
-            p{
-                margin-left: .5em;
-                color:$naranja-claro;
-                font-family: 'Archivo', sans-serif;
-                padding: 5px;
-                margin-right: 2%;
-                line-height: 2em;
-                font-size: 1em;  
-            }
-        } 
+    }
 }
+
+
 
 /*-----------------------*/
 
 /*CONTACTO*/
 .body__contacto{
-        margin-top: 1em;
-        margin-left: 1em;
-        margin-bottom: 1em;
-        margin-right: 1em;
+        margin-top: 2em;
         box-shadow:0 1px 4px 0 rgba(0,0,0,.32);
         background-color:$negro;
         display: flex;
@@ -297,8 +305,8 @@ body {
         .formulario__container {
             padding: 2em;
             font-family: 'Bebas neue';
-            color:$naranja-hover;
-            .forlumario__checkbox{
+            color:$naranja-claro;
+            .formulario__checkbox{
                 input {
                     background-color: #F3661F;
 
@@ -306,21 +314,16 @@ body {
                 
             }
             .formulario__nombre{
-                
                 label {
-                    font-family: 'Bebas neue';
-                    margin-bottom: 2em;
-                    color:#F3861F;
-                    padding: 0.5%;
+                    margin-bottom: 0%;
+                    font-family: 'Bebas neue';                   
                     box-shadow:0 1px 4px 0 rgba(0,0,0,.32);
                     background-color: #161612;   
                 }
 
                 input {
-                    font-family: 'Bebas neue';
-                    margin-top: 1em;;
+                    font-family: 'Bebas neue';                    
                     margin-bottom: 1em;
-                    color:#F3861F;
                     background-color: black;
                 }   
                 
@@ -329,16 +332,14 @@ body {
             .formulario__correo{
                 
                 label {
-                    font-family: 'Bebas neue';
-                    margin-bottom: 2em;
-                    color:$naranja-claro;
+                    margin-bottom: 0%;
                     padding: 0.5%;
                     box-shadow:0 1px 4px 0 rgba(0,0,0,.32);
                     background-color: $negro;   
                 }
                 
                 input {
-                    font-family: 'Bebas neue';
+                    
                     margin-top: 1em;;
                     margin-bottom: 1em;
                     color:$naranja-claro;
@@ -347,40 +348,48 @@ body {
                 
             }
 
-            .formulario__tipoDeMensaje{
-
-                select {
-                    width: 20em;
-                    padding:10px;
-                    border-radius:10px;
-                    margin-bottom: 2em;
-                    font-family: 'Bebas neue';
-                    color: $naranja-claro;
-                }
-            }
-
-            .formulario__mensaje{
-                border-radius: 2px;
-            }
-            
-            label {
-                margin-bottom: 2em;
-                padding: 0.5%;
-                box-shadow:0 1px 4px 0 rgba(0,0,0,.32);
-
-            }
-
             select {
-                width: 20em;
+                width: 100%;
                 padding:10px;
                 border-radius:10px;
                 margin-bottom: 1em;
             }
 
-            input {
-                margin-top: 1em;;
-                margin-bottom: 1em;
-            } 
+            .formulario__mensaje{
+                border-radius: 2px;
+                label {
+                
+                    padding: 0.5%;
+                    box-shadow:0 1px 4px 0 rgba(0,0,0,.32);
+    
+                }
+    
+                input {
+                    margin-top: 1em;;
+                    margin-bottom: 1em;
+                } 
+                textarea {
+                    width: 100%;
+                }
+            }
+            
+            
+            .formulario__checkbox{
+                
+                .form-check{
+                    margin-bottom: 1em;
+                }
+                .btn-primary{
+                    
+                    background-color: $naranja-claro;
+                    border-color: #F3861F;
+                    font-family: 'Bebas neue';
+                    color: black;                
+                    
+                }
+                
+            }
+        
 
         }
         .body__contacto--data{
@@ -396,7 +405,10 @@ body {
                 padding: 0px;
                 font-size: 2em;
                 height: 30px;
-                color: $naranja-hover;
+                color: $naranja-claro;
+            }
+            p{
+                color: $naranja-claro;
             }
             iframe{
                 width: 100%; 
@@ -421,14 +433,13 @@ body {
 
 .merchandising__proximamente{
 
-    margin-top: .2em;
-    margin-bottom: 1.8em;
+    
     min-height: 60vw;
     box-shadow:0 1px 4px 0 rgba(0,0,0,.32);
     background-color: $negro;
     .merchandising__logo {
-        margin-top: 50px;
-        padding: 2em 0em;
+        margin-top: .5em;
+        padding: 2em .5em 4em;
         
         h1{
             text-align: center;
@@ -446,6 +457,9 @@ body {
                     padding:.5em;
                     position:relative;
                     box-shadow:0 1px 4px 0 rgba(0,0,0,.32);
+                    margin-left: 10%;
+                    margin-right: auto; 
+                    width: 80%;
             }    
 
             h2{
@@ -461,26 +475,25 @@ body {
                 left: 50%;
                 transform: translate(-50%, -50%);
             }
-        }
-        .proximamente:hover{
-            .merch--banner{
-                opacity: 0.3;
-                transition: .5s ease;
-                backface-visibility: hidden; 
+            &:hover{
+                .merch--banner{
+                    opacity: 0.3;
+                    transition: .5s ease;
+                    backface-visibility: hidden; 
+                }
+                h2 {
+                    opacity: 1;
+                    transition: .5s ease;
+                }
             }
-            h2 {
-                opacity: 1;
-                transition: .5s ease;
-            }
         }
-    
-        
     }    
     
     .merchandising__newsletter {
         .row {
             margin-bottom: 2em;
             padding-bottom: 2em;
+            margin-right: auto;
             display:block;
             
             .input-group {
