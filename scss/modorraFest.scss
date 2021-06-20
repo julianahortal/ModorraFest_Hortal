@@ -33,53 +33,52 @@ body {
     }
     /*MENÚ*/
     .navbar-nav{
-            display: block;
-            .navbar-toggler{
-                color: $naranja-hover;
-            }
-            .nav-item{
-                list-style-type: none;
+        display: block;
+        .navbar-toggler{
+            color: $naranja-hover;
+        }
+        .nav-item{
+            list-style-type: none;
+            font-family: 'Bebas Neue';
+            font-size: 115%;
+            padding: 4px 6px;
+            text-decoration: none;
+            text-align: center;
+            li a{
+                display: block;
+                margin-inline-start: 0%;
                 font-family: 'Bebas Neue';
-                font-size: 115%;
-                padding: 4px 6px;
+                font-size: 110%;
                 text-decoration: none;
-                text-align: center;
-                li a{
-                    display: block;
-                    margin-inline-start: 0%;
-                    font-family: 'Bebas Neue';
-                    font-size: 110%;
-                    text-decoration: none;
-                    color: $naranja-claro;
-                    
-                }
-                a:hover{
-                    background-color: $naranja-claro;
-                    color: black;
-                }
+                color: $naranja-claro;                    
             }
-            .nav-link {
-                color: $naranja-claro;
+            a:hover{
+                background-color: $naranja-claro;
+                color: black;
+            }
+        }
+        .nav-link {
+            color: $naranja-claro;            
+            li ul  {
+                display:block;
+                color:black; 
+            }
+        }
+        
+        /*SUBMENÚ - LINE UP*/
+        .dropdown-menu {                
+            width: 100% !important;
+            height: 120px !important;
+            background-color: #1a1a15;
+            text-align: center;
+            padding-bottom: 2em;                
             
-                li ul  {
-                    display:block;
-                    color:black; 
-                }
-            }
-            /*SUBMENÚ - LINE UP*/
-            .dropdown-menu {                
-                width: 100% !important;
-                height: 120px !important;
+            &:hover {
                 background-color: #1a1a15;
-                text-align: center;
-                padding-bottom: 2em;
-                
-                .dropdown-menu:hover {
-                    background-color: #1a1a15;
-                }
             }
+        }
     } 
-    }
+}
 
 
 
@@ -262,15 +261,12 @@ body {
                         display: flex;
                         flex-direction: row;
                         margin: 1em 0em;
-                        
-                        
+
                         .poster{                            
                             margin-top: 1em;
                             width: 50%;                                                        
                             height: 50%;                                                             
                             box-shadow:0 1px 4px 0 $naranja-hover;
-                            
-                            
                         }
                         p{
                             margin-top: .2em;
@@ -285,13 +281,9 @@ body {
                     } 
                 }
             }
-
         }
     }
 }
-
-
-
 /*-----------------------*/
 
 /*CONTACTO*/
@@ -309,9 +301,7 @@ body {
             .formulario__checkbox{
                 input {
                     background-color: #F3661F;
-
                 }
-                
             }
             .formulario__nombre{
                 label {
@@ -358,10 +348,8 @@ body {
             .formulario__mensaje{
                 border-radius: 2px;
                 label {
-                
                     padding: 0.5%;
                     box-shadow:0 1px 4px 0 rgba(0,0,0,.32);
-    
                 }
     
                 input {
@@ -372,15 +360,13 @@ body {
                     width: 100%;
                 }
             }
-            
-            
+
             .formulario__checkbox{
                 
                 .form-check{
                     margin-bottom: 1em;
                 }
                 .btn-primary{
-                    
                     background-color: $naranja-claro;
                     border-color: #F3861F;
                     font-family: 'Bebas neue';
@@ -389,7 +375,6 @@ body {
                 }
                 
             }
-        
 
         }
         .body__contacto--data{

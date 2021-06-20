@@ -4,11 +4,8 @@
         max-width: 10%;
         margin-left: 15vw;
 }
-    .lineup__container{
-        
-        margin-right: auto;
-
-        
+    .lineup__container{        
+        margin-right: auto; 
     }   
     .section__lineUp {
         margin-left: 5em;   
@@ -71,7 +68,6 @@
 
         li{
             display: inline;
-            
             a {
                 margin-inline-start: 2.5em;
                 font-family: 'Bebas Neue';       
@@ -79,8 +75,6 @@
                 display: inline;
                 color: #F3861F;
                 text-decoration: none;
-                justify-content: space-around;
-                
             }
         }    
     }
@@ -96,10 +90,8 @@
     
     .header__header--index{
         min-height: 550px;
-        
-    
     }
-    
+
     /*NAVBAR DEL SITIO ENTERO*/
 
     .header__navbar{
@@ -165,10 +157,9 @@
             }
         }    
     }
-}
+    }
     /*FOOTER DE TODO EL SITIO*/
     .footer__nav{
-        
         justify-content: space-between;
         .footer__creditos {
             text-align: center;
@@ -176,17 +167,16 @@
             font-size: 1.5vw;
         }
         .footer__menuFooter{
-        font-size: 2.5vw;
-        li{
-                
-            a {
-                margin-inline-start: 6.5em;
-                font-size: 20px;
-                padding: 4px 6px; 
-                text-align: center;
-                justify-content: space-evenly;
-            }
-        }    
+            font-size: 2.5vw;
+            li{                
+                a {
+                    margin-inline-start: 6.5em;
+                    font-size: 20px;
+                    padding: 4px 6px; 
+                    text-align: center;
+                    justify-content: space-evenly;
+                }
+            }    
         }
     
     }
@@ -208,7 +198,6 @@
             }
         
             p {
-
                 margin-right: 2em;
                 line-height: 30px;
                 padding-top: 1em;
@@ -220,8 +209,6 @@
             width: auto;
             padding-top: 10px;
         } 
-                
-        
     }
     
     /* ACERCA DE*/
@@ -259,7 +246,6 @@
             }
         }   
     }
- 
     /* CONTACTO*/
     
     /*FORMULARIO*/
@@ -268,23 +254,18 @@
         margin-right: 5em;
         flex-direction: row;
         .formulario__container{
-           padding-left: 4em; 
-           
-            
+            padding-left: 4em;  
         }
 
-        .body__contacto--data{
-            
+        .body__contacto--data{            
             margin-left: 5em;
             padding: 0em 4em;
-            
-            
+
             h1,h2{
                 font-size: 2.5em;
                 margin-bottom: 1em;
             }     
-            iframe{
-                
+            iframe{                
                 width: 40vw;
                 height: 250px;
                 padding-right: 2em;
@@ -312,7 +293,6 @@
                 text-shadow: -0.04em -.020em #913106;
                 font-size: 10vw;
                 align-self: center;
- 
             }
             .proximamente{
                 
@@ -358,9 +338,6 @@
                 margin-right: 15%;
                 .btn-primary{      
                     align-self: center;
-                    
-                    
-                    
                 }
             }
         }
